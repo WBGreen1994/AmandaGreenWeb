@@ -1,0 +1,172 @@
+body {
+	display: flex;
+	width: 100%;
+	margin: 0;
+	flex-direction: column;
+}
+
+.header {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;	
+}
+
+a {
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.nav_link {
+	display: flex;
+	width: 33%;
+	height: 40px;
+	margin: 0;
+	padding: 5px;
+	align-items: center;
+	margin-left: 8px;
+	margin-right: 8px; 
+}
+
+.links_left {
+	justify-content: flex-start;
+}
+
+.links_center {
+	justify-content: center;
+	
+}
+
+.links_right {
+	justify-content: flex-end;
+	word-spacing: 8px;
+}
+
+.container {
+	display: block;
+	background-color: #002C41;
+	height: 250px;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.banner {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.authortag {
+	text-align: right;
+}
+
+.main-image {
+	flex-direction: row;
+	display: flex;
+	height: 92vh;
+}
+
+.left-side {
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 30%;
+	color: white;
+	font-size: 17px;
+	background-image: linear-gradient(to right, black , #ffffff);
+	padding-right: 20%;
+	padding-top: 75px;
+	padding-bottom: 200px;
+}
+
+h6 {
+	font-size: 17px;
+	font-weight: bold;
+} 
+
+.right-side {
+	justify-content: flex-end;
+	width: 70%;
+	text-align: center;
+	padding-top: 700px;
+	padding-right: 400px; 
+	padding-bottom: 800px;
+	color: black;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.font-20 {
+	font-size: 20px;
+}
+
+.font_helvetica {
+	font-family: helvetica;
+}
+
+.width_100 {
+	width: 100%;
+}
+
+.footer {
+	font-size: 15px;
+	font-weight: bold;
+	width: 98%;
+	height: 125px;
+	font-family: helvetica;
+	flex direction: row;
+	background-color: #292929;
+	color: white;
+	display: flex;
+	padding: 20px;
+}
+
+.center_text {
+	text-align: center;
+	order: 2;
+}
+
+.left_title {
+	justify-content: flex-start;
+	order: 1;
+}
+
+.right_title{
+	justify-content: flex-end;
+	order: 3;
+	text-align: right;
+}
+
+.width33 {
+	width: 33%;
+}
+
+.images {
+	height: 65vh;
+	display: flex;
+	font-family: helvetica;
+	color: #002c41;
+	border: 2px solid red;
+}
+
+.title {
+	text-align: center;
+}
+
+.image {
+	height: 25vh;
+	border: 2px solid red;
+	width: 50%;
+	flex-wrap: wrap;
+}
+
+.button {
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid blue;
+
+}
+
